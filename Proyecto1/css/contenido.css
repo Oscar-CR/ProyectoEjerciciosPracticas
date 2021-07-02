@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Pattaya";
+}
+
+.bar{
+    width: 100%;
+    height: 80px;
+    background-color: #232323;
+}
+
+.bar a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    
+}
+
+.bar a img{
+    position: absolute;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.bar ul{
+    display: flex;
+    justify-content:flex-end;
+    
+}
+
+.bar li{
+    margin-top: 25px;
+    margin-right: 30px;
+    list-style: none;   
+}
+
+.contenedor img{
+    max-width: 100%;
+    height: auto;
+}
+
+.contenedor h1{
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+    font-family: "Pattaya";
+    text-align: center;
+    font-size: 80px;
+    color: #FFF;
+    transition: ease-out 1s;
+}
+
+.bar a:hover{
+    color: #EA7947;
+}
+

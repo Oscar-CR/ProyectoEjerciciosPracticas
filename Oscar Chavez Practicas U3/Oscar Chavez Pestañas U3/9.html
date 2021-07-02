@@ -1,0 +1,70 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="./css/9.css">
+  <title>Practica 9</title>
+</head>
+
+<body>
+
+  <div class="tv-tabs">
+    <label class="tv-tab" for="tv-tab-1">Intro</label>
+    <label class="tv-tab" for="tv-tab-2">Code</label>
+    <label class="tv-tab" for="tv-tab-3">?</label>
+  </div>
+  <input class="tv-radio" id="tv-tab-1" name="tv-group" type="radio" checked="checked" />
+  <div class="tv-content">
+    <h1>Intro</h1>
+    <ul>
+      <li>Sin JavaScript</li>
+      <li>CSS simple y saludable al 100%</li>
+      <li>Casi ningun hacker</li>
+      <li>Algo detallado, en cuanto a HTML... </li>
+    </ul>
+    <p>Revisa el
+      <label class="tv-link" for="tv-tab-2">codigo fuente</label>
+    </p>
+  </div>
+  <input class="tv-radio" id="tv-tab-2" name="tv-group" type="radio" />
+  <div class="tv-content">
+
+
+    <h1>Código</h1>
+    <p>Algo detallado, aquí está la fuente de Jade. La mayoría de las bibliotecas JS todavía piden un marcado similar que casi no existe
+      aunque mejor.</p>
+    <h3>Cóigo HTML (Jade):</h3>
+    <pre><code>div.tv-tabs
+    label.tv-tab(for='tv-tab-1') Tab Name!
+    label.tv-tab(for='tv-tab-n') for attr equals the radio ids
+   
+  input.tv-radio#tv-tab-1(name='any-group-name', type='radio', checked)
+  div.tv-content Content goes here!
+   
+  input.tv-radio#tv-tab-n(name='any-group-name', type='radio')
+  div.tv-content More goes here!</code></pre>
+    <h3>Còdigo CSS (lápiz óptico) relevante:</h3>
+    <pre><code>.tv-content
+    display none
+   
+  .tv-radio
+    display none
+   
+    &:checked + .tv-content
+      display block</code></pre>
+  </div>
+
+
+  <input class="tv-radio" id="tv-tab-3" name="tv-group" type="radio" />
+  <div class="tv-content">
+    <h1>?</h1>
+    <p> Hola</p>
+    <ul>
+      <li>Yo blogueo como <a href="">oscar</a></li>
+      <li>Yo twiteo como <a href="">@oscar</a></li>
+      <li>Presiono el codigo como<a href="">@oscar</a></li>
+    </ul>
+    <p><em>Mas tarde...</em></p>
+  </div>
+</body>
+
+</html>

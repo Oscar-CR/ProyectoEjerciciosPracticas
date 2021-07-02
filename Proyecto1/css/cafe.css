@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.index-bg{
+    background-color: #FACDAE;
+}
+
+.login-bg{
+    background-image: url("https://images.unsplash.com/flagged/photo-1568401649618-48e337e8bf40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1257&q=80");
+    font-family: "Pattaya";
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.index-logo img{
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color:#60404B;
+}
+
+.login-datos{
+    max-width: 360px;
+    height: 100%;
+    background-color: #FFF;
+    opacity: 0.95;
+}
+
+.login-bg .log p{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.login-bg .log h4{
+    padding: 40px;
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.login-bg .log input{
+    margin-left: 20px;
+    font-size: 20px;
+    width: 320px;
+}
+
+.ingresar{
+    background-color: #50342D;
+    color: #E0E0E0;
+    height: 40px;
+    font-family: "Lato";
+    border: 2px solid #50342D;
+    cursor: pointer;
+}
+
+.registrar{
+    background-color: #fff;
+    height: 40px;
+    border: 2px solid #50342D;
+    cursor: pointer;
+}
+
+.login-datos .olvidar{
+    margin-left: 55%;
+    text-decoration: none;
+    color: #50342D;
+}
+
+@media (max-width: 411px){
+    .login-datos{
+        max-width: 100%;
+    }
+
+    .login-bg .log input{
+        margin-left: 5%;
+        font-size: 20px;
+        width: 90%;
+    }
+    
+    .ingresar{
+        height: 40px;
+        font-family: "Lato";
+        border: 1px solid #50342D;
+        cursor: pointer;
+    }
+    
+    .registrar{
+        border: 1px solid #50342D;
+        cursor: pointer;
+    }
+
+
+}

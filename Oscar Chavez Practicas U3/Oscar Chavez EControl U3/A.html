@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>Cine</title>
+    <script type="text/javascript" src="./js/a.js"></script>
+    <link rel="stylesheet" href="./css/a.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Cine</h1>
+    </div>
+    <br>
+    <form name="form1">
+
+        <div class="opciones">
+            <label for="">Sala: </label>
+            <select class="sala" name="sala" id="numeroSala">
+                <option value="2d">Sala 1 - 2D</option>
+                <option value="2d">Sala 2 - 2D</option>
+                <option value="2d">Sala 3 - 2D</option>
+                <option value="3d">Sala 4 - 3D</option>
+                <option value="3d">Sala 5 - 3D</option>
+                <option value="3d">Sala 6 - 3D</option>
+                <option value="imax">Sala 7 - IMAX</option>
+                <option value="imax">Sala 8 - IMAX</option>
+                <option value="imax">Sala 9 - IMAX</option>
+                <option value="imax">Sala 10 - IMAX</option>
+            </select>
+            <br>
+            <label for="">Funciones: </label>
+            <select class="funcion" name="funcion" id="numeroFuncion">
+                <option value="f1">Funcion 1</option>
+                <option value="f2">Funcion 2</option>
+                <option value="f3">Funcion 3</option>
+                <option value="f4">Funcion 4</option>
+                <option value="f5">Funcion 5</option>
+                <option value="f6">Funcion 6</option>
+            </select>
+            <br>
+            <label for="">Tipo :</label>
+            <select class="persona" name="persona" id="persona">
+                <option value="general">General</option>
+                <option value="alumno">Alumno</option>
+                <option value="mayor">Mayor</option>
+                <option value="profesor">Profesor</option>
+            </select>
+            <br>
+            <label for="">Cantidad: </label>
+            <input class="cantidad" type="text" name="cantidad" id="cantidadBoletos">
+            <br>
+            <input class="boton" type="button" value="COMPRAR" onClick=precio()>
+
+        </div> 
+    </form>
+    <br>
+
+    <div class="ticket">
+        <h3>Ticket</h3>
+        <p>CineLagarto</p>
+        <label>Control: </label>
+        <label id="funciones"></label>
+        <br>
+        <label id="persona"></label>
+        <label id="tipox"></label>
+        <br>
+        <label>$</label>
+        <label id="totalPrecio"></label>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>

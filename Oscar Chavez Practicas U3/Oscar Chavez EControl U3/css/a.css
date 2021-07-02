@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #FFF99A;
+}
+.header{
+    background-color: #232323;
+    width: 100%;
+    height: 40px;
+}
+
+.header h1{
+    color: #fff;
+    text-align: center;
+
+}
+
+.opciones{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    background-color: #FF9A7C;
+    padding: 40px;
+    box-shadow: 5px 5px 5px #232323;
+    border-radius: 10px;
+
+
+}
+
+.opciones label{
+    font-size: 20px;
+}
+
+.opciones .sala{
+    margin-left: 50px;
+    width: 120px;
+}
+
+.opciones .funcion{
+    width: 120px;
+}
+
+.opciones .persona{
+    margin-left:43px;
+    width: 120px;
+}
+
+.opciones .cantidad{
+    width: 120px;
+    margin-left: 10px;
+}
+
+.opciones .boton{
+    margin-top: 50px;
+    width: 210px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #7FBED9;
+    font-size: 25px;
+}
+
+.opciones .boton:hover{
+    background-color: #2095C8;
+}
+
+.ticket{
+    width: 400px;
+    height: 190px;
+    display: block;
+    margin: auto;
+    background-color: #FF9A7C;
+    padding: 40px;
+    box-shadow: 5px 5px 5px #232323;
+    font-size: 16px;
+}
+
+.ticket h3{
+    text-align: center;
+    font-size: 25px;
+}
+

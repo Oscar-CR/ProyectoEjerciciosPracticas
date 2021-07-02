@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <title>Operaciones</title> 
+        <script type="text/javascript" src="./js/d.js"></script>
+        <link rel="stylesheet" href="./css/d.css">
+    </head>
+    <body>
+
+        <div class="header">
+            <h1>Operaciones</h1>
+        </div>
+        <form name="operaciones">
+            <br>
+            <div class="factorial">
+                <h2>Factorial</h2>
+                <label>Ingrese el numero</label>
+                <input type="text" id="factorial1">
+                <br>
+                <input class="bot" type="button" value="CALCULAR" onClick=factorial()>
+                <br>
+                <div class="resultados">
+                    <div id="resultadoFactorial"></div>
+                </div>
+            </div>
+            <br>
+            <div class="raiz">
+                <h2>Raíz de un numero</h2>
+                <label>Ingrese el numero</label>
+                <input type="text" id="raiz">
+                <br>
+                <input class="bot" type="button" value="CALCULAR" onClick=ra()>
+                <div class="resultados">
+                    <div id="resultadoRaiz"></div>
+                </div>
+            </div>
+            <br>
+            <div class="cubo">
+                <h2>Cubo de un numero</h2>
+                <label>Ingrese el numero</label>
+                <input type="text" id="cubo">
+                <br>
+                <input class="bot" type="button" value="CALCULAR" onClick=cu()>
+                <div class="resultados">
+                    <div id="resultadoCubo"></div>
+                </div>
+            </div>
+            <br>
+            <div class="rango">
+                <h2>Rango de 2 numeros</h2>
+                <label>Ingrese el primer número: </label>
+                <input type="text" id="numero">
+                <br>
+                <label>Ingrese el segundo número: </label>
+                <input type="text" id="numero2">
+                <br>
+                <input class="bot" type="button" value="CALCULAR" onClick=ran()>
+                <div class="resultados">
+                    <div  id="resultadoRango"></div>
+                </div>
+                
+            </div>
+            <br>
+            <div class="comparacion">
+                <h2>Comparación de números</h2>
+                <label>Ingrese el primer número: </label>
+                <input type="text" id="numer1">
+                <br>
+                <label>Ingrese el segundo número: </label>
+                <input type="text" id="numer2">
+                <br>
+                <label>Ingrese el tercer número: </label>
+                <input type="text" id="numer3">
+                <br>
+                <input class="bot" type="button" value="CALCULAR" onClick=comp()>
+                <div class="resultados2">
+                    <div id="mayorComp"></div>
+                    <div id="medioComp"></div>
+                    <div id="menorComp"></div>
+                </div>
+                
+            </div>
+        </form>
+        
+    </body>
+</html>
