@@ -35,6 +35,23 @@
     height: 100px;
 }
 
+
+.logo-ppal >*{
+    display: block;
+    margin: auto;
+    margin-top: 170px;
+}
+
+
+.logo-ppal img{
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.login-card >*{
+    display: block;
+    margin: auto;
+}
 .ubicacion{
     width: 100%;
 }
@@ -72,10 +89,11 @@
 }
 
 .logos{
-    width: 420px;
+    width: 50%;
     display: block;
     margin: auto;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
+
   
 }
 
@@ -90,6 +108,71 @@
 .contacto>*{
     margin: 0 20px 0 20px;   
 
+}
+
+.sitemap{
+    width: 100%;
+}
+
+.sitemap button{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+
+.login-body{
+    background-color: #269A52;
+}
+
+
+.contenedor-login{
+    width: 300px;
+    height: 350px;
+    background-color:#F5F5F5;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #232323;
+}
+
+.login-header{
+    height: 50px;
+    background-color: #232323;
+    color: #fff;
+    padding-top: 15px;
+}
+
+.login-header h3{
+    text-align: center;
+}
+
+.login-formulario{
+    padding: 20px;
+    
+}
+
+.login-formulario input{
+    width: 260px;
+    height: 30px;
+}
+
+.login-formulario a{
+    text-decoration: none;
+    color: #232323;
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+.login-formulario #ingresar{
+    background-color: #269A52;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.login-formulario #ingresar:hover{
+    background-color: #21BA5B;
 }
 
 .footer {
@@ -121,17 +204,6 @@
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
    
-.logos{
-    width: 100%;
-    display: block;
-    margin: auto;
-  
-}
-
-.logos img{
-    width: 70px;
- 
-}
 
 .contacto{
 
@@ -140,7 +212,19 @@
 }
 
 
-    
+
+
+.contenedor-login{
+    width: 300px;
+    height: 350px;
+    background-color:#F5F5F5;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #232323;
+}
+  
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
@@ -150,6 +234,7 @@
         grid-template-columns: 1fr 1fr;
       
      }
+
      
     
 }
